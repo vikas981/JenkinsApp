@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "616659985511",
+    "firebase_url": "https://jenkins-7bcc4.firebaseio.com",
+    "project_id": "jenkins-7bcc4",
+    "storage_bucket": "jenkins-7bcc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616659985511:android:17cf50cc6613d6a3fbe0c2",
+        "android_client_info": {
+          "package_name": "com.viksingh.jenkins"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616659985511-36ogt5nnntddpovsvujiskq18vpcifp5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.viksingh.jenkins",
+            "certificate_hash": "55f01ad2b115df951d2462d87b7e80456922770b"
+          }
+        },
+        {
+          "client_id": "616659985511-2mr4fhdsa31rnlt7fibjbg7acv197sm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9w-I-rlRsk_TVARtsbnQ7GqWJ00QMWRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616659985511-2mr4fhdsa31rnlt7fibjbg7acv197sm7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

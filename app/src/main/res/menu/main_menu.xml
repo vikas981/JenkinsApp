@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:icon="@drawable/home_icon" android:id="@+id/nav_home" android:title="Home" />
+        <item android:icon="@drawable/node" android:id="@+id/nodes" android:title="Nodes" />
+    </group>
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@drawable/profile_icon" android:id="@+id/nav_profile" android:title="Profile" />
+                <item android:icon="@drawable/logout_icon" android:id="@+id/nav_logout" android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Communicate">
+        <menu>
+            <item android:icon="@drawable/share_icon" android:id="@+id/nav_share" android:title="Share" />
+            <item android:icon="@drawable/rate_icon" android:id="@+id/nav_rate" android:title="Rate Us" />
+        </menu>
+    </item>
+    <item android:title="Settings">
+        <menu>
+            <item android:icon="@drawable/user" android:id="@+id/nav_users" android:title="Users" />
+            <item android:icon="@drawable/about" android:id="@+id/nav_about" android:title="About" />
+        </menu>
+    </item>
+</menu>

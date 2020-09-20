@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:elevation="10dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".LoginPage">
+
+    <ImageView
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+        android:transitionName="logo_image"
+        android:src="@drawable/jenkins"
+        android:layout_marginTop="64dp"
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:elevation="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp">
+
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+    <AutoCompleteTextView
+        android:layout_height="60dp"
+        android:layout_width="fill_parent"
+        android:padding="5dp"
+        android:transitionName="url_tran"
+        android:hapticFeedbackEnabled="true"
+        android:inputType="text"
+        android:hint="Jenkins Url"
+        android:background="@drawable/login_edit"
+        android:id="@+id/url"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:textSize="15sp"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/drop_down"
+        android:id="@+id/dropdown"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:transitionName="username_tran"
+        android:hint="Username"
+        android:id="@+id/username"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:counterMaxLength="15">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="text"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:transitionName="password_tran"
+        android:hint="Password"
+        android:id="@+id/password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:passwordToggleEnabled="true">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:inputType="textPassword"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
+    <include
+        android:id="@+id/btn"
+        layout="@layout/progress_bar_layout"/>
+</LinearLayout>

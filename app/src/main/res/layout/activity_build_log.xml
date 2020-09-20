@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tool:context=".BuildLog"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/toolbar"
+        android:background="?colorPrimary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?actionBarSize"
+        app:titleTextColor="@android:color/white" />
+
+    <ScrollView android:id="@+id/SCROLLER_ID"
+        android:background="@color/light_grey"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10.0dip">
+
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="@color/orange"
+            android:id="@+id/TEXT_STATUS_ID"
+            android:background="@color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginStart="10.0dip"
+            android:layout_marginEnd="10.0dip" />
+    </ScrollView>
+</LinearLayout>
